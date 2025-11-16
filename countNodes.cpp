@@ -23,5 +23,5 @@ int main() {
 	root->left->left = new TreeNode(4);
 	root->right->right = new TreeNode(5);
 	
-    std::cout << countNodes(root);
+    cout << countNodes(root);
 }
